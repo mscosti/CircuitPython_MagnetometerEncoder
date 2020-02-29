@@ -59,7 +59,5 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    # TODO: IF LIBRARY FILES ARE A PACKAGE FOLDER,
-    #       CHANGE `py_modules=['...']` TO `packages=['...']`
-    py_modules=['magnetometerencoder'],
+    packages=["magnetometer_encoder"],
 )
